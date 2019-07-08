@@ -1,0 +1,72 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image:url(road.jpg!d);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+a h1 {
+  
+    color: white;
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 100px;
+    margin-top: 50px;
+    text-shadow: 1px 1px black;
+    transition: all 0.5s ease;
+    justify-content: center;
+    
+}
+
+a h1:hover {
+    color: lightgrey;
+    cursor: pointer;
+    
+}
+
+div h3 {
+    color: white;
+    
+    width: 800px;
+    margin: 0 auto;
+    font-size: 20px;
+    display: flex;
+    text-shadow: 1px 1px black;
+    transition: all 0.5s ease;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+a h2 {
+    color: white;
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 50px;
+    margin-top: 100px;
+    text-shadow: 1px 1px black;
+    transition: all 0.5s ease;
+    justify-content: center;
+}
+
+a h2:hover {
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.GitHub img {
+    width: 70px;
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
