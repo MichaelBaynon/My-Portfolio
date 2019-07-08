@@ -32,17 +32,28 @@ a h1:hover {
     
 }
 
+.notice {
+    
+    width: 900px;
+    
+    margin-left: 550px;
+    justify-content: space-between;
+    display: flex;
+}
+
 div h3 {
     color: white;
     
     width: 800px;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     text-shadow: 1px 1px black;
     transition: all 0.5s ease;
     justify-content: center;
-    margin-top: 9px;
+    margin-top: 25px;
+    
+    justify-content: space-between;
 }
 
 a h2 {
@@ -51,7 +62,7 @@ a h2 {
     width: 800px;
     margin: 0 auto;
     font-size: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
     text-shadow: 1px 1px black;
     transition: all 0.5s ease;
     justify-content: center;
@@ -73,6 +84,7 @@ a h2:hover {
 
 .project1 img{
     width: 300px;
+    
     
 }
 
@@ -143,6 +155,7 @@ background-color: brown;
 
 .project2 img{
     width: 300px;
+    height: 306px;
     
 }
 
@@ -157,9 +170,10 @@ background-color: brown;
 .project2 p {
     color: white;
     text-shadow: 1px 1px black;
-    font-size: 25px;
+    font-size: 21px;
     margin-left: 10px;
     margin-top: 0px;
+    margin-top: 10px;
 }
 
 .text .viewCode {
