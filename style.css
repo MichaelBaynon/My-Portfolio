@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image:url(road.jpg!d);
+    background-image:url(./IMGS/road.jpg!d);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -19,7 +19,7 @@ a h1 {
     width: 800px;
     margin: 0 auto;
     font-size: 100px;
-    margin-top: 50px;
+    margin-top: 20px;
     text-shadow: 1px 1px black;
     transition: all 0.5s ease;
     justify-content: center;
@@ -75,9 +75,17 @@ a h2:hover {
 
 .GitHub img {
     width: 70px;
-    display: inline-flex;
-    margin-left: 10px;
-    margin-top: 10px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.Linkedin img {
+    width: 140px;
+   
+    margin-left: 20px;
+    margin-top: 20px;
+    
 }
 
 /* PROJECT 1 /////////////////////////////////////////////////////// */
@@ -275,7 +283,22 @@ background-color: brown;
     
 }
 
+/* Project Titles /////////////////////////////////// */
 
+.projectTitles {
+    display: flex;
+    
+    width: 1400px;
+    margin-left: 60px;
+    justify-content: space-around;
+    margin-bottom: -65px;
+}
+
+.projectTitles p {
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+}
 
 
 
